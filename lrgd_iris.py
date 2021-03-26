@@ -76,4 +76,4 @@ for j in range(len(test)):
                 cnt += 1
         test.iloc[j,k] = cnt / len(y_test)
 
-test.to_csv("lrgd_iris_result.csv")
+test.to_csv("lrgd_iris_result_2.csv")
